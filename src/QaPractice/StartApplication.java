@@ -60,7 +60,7 @@ public class StartApplication {
 			//driver.getKeyboard().sendKeys(Keys.RETURN);
 		}
 		private void selectFirstItemFromSearch() {
-			List<WebElement> item=driver.findElementsByXPath("\\*[contains(text(),'Apple iPhone')]");
+			List<WebElement> item=driver.findElementsByXPath("//android.widget.TextView[contains(@text='Apple iPhone')]");
 			item.get(1).click();
 			//add to cart
 			driver.findElementById("add-to-cart-button").click();
