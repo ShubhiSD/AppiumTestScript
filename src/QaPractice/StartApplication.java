@@ -45,8 +45,8 @@ public class StartApplication {
 		private void signIn() {
 			driver.findElementById("com.amazon.mShop.android.shopping:id/sign_in_button").click();
 			driver.findElementById("login_accordion_header").click();
-			driver.findElementById("ap_email_login").sendKeys("shubhi.shukla.07@gmail.com\n");
-			driver.findElementById("ap_password").sendKeys("aashi@143\n");
+			driver.findElementById("ap_email_login").sendKeys("shubhi07@gmail.com\n");
+			driver.findElementById("ap_password").sendKeys("eerer@123\n");
 			if(driver.findElementById("com.amazon.mShop.android.shopping:id/action_bar_home_logo").isDisplayed())
 			System.out.println("sign in successful");
 			}
